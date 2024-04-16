@@ -1,0 +1,19 @@
+.ant-modal-header{
+    background-color: transparent!important;
+    font-size: 30px;
+    color : blue;
+
+}
+.arrow {
+    color : rgb(141, 141, 141)!important;
+}
+.ant-modal-title{
+    color : #3b31b9!important;
+    font-size: 20px!important;
+}
+.ant-modal-close{
+    color : white!important;
+}
+input.ant-input{
+    border : none!important;
+}

@@ -1,0 +1,105 @@
+.homeRow {
+    width : 100%;
+    height: 100vh;
+overflow-y: scroll;
+
+
+}
+.homeSection {
+    flex-direction: column;
+   width : 100%!important;
+   margin : 0 auto ;
+   /* height: 88vh; */
+/* padding-bottom: 50px;
+ */
+ /* margin-bottom: 300px; */
+
+
+   /* justify-content: center; */
+   /* align-items: center; */
+   
+
+
+}
+
+.homeCol1{
+    border : '1px solid green';
+    width : 100%;
+    flex-direction:column ;
+
+}
+.colHeader {
+    width : '100%';
+    position : relative;
+    /* width : 100%; */
+    /* height : 70px; */
+     margin : 30px;
+     margin-bottom: 5px;
+     /* margin-top: 0; */
+    display : grid;
+    align-items: center;
+    grid-template-columns: 2fr 20fr 2fr;
+    border-radius : 14px;
+    /* padding :  20px ; */
+    padding : 15px 0;
+    /* padding-bottom: 30px; */
+
+
+ 
+
+    
+ 
+}
+.homePost{
+   /* overflow-y: scroll; */
+   height : 86vh;
+   
+
+}
+.fileInput {
+    border-radius: 0!important;
+    width : 98%;
+    background-color: black;
+    margin : auto;
+
+}
+
+.ant-card-actions {
+    background-color: transparent!important;
+    color : white;
+}
+.newPostItem{
+    height : 40px;
+ 
+    display :flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.newPostAvatar{
+    margin : 0 12px;
+}
+.ant-input:focus-within ,.ant-input:hover ,.ant-input{
+    border: 1px solid rgba(166, 166, 166, 0.549) !important;
+    box-shadow: none!important;
+
+}
+.postItems{
+    padding-bottom: 130px!important;
+    height : auto;
+   width : 500px;
+    
+}
+.ant-input::placeholder {
+    color: rgba(166, 166, 166, 0.549) !important;
+    /* Change to the desired color */
+}
+@media (max-width : 600px) {
+    .postItems {
+            padding-bottom: 130px !important;
+       
+          width: 450px;
+    
+        }
+
+}

@@ -1,0 +1,14 @@
+.circle {
+    position: relative;
+    z-index: 0;
+    width: 1px;
+    height: 1px;
+    background-color: black;
+    left: 30%;
+    border-radius: 50%;
+    top: 20%;
+    left: 35%;
+    opacity: 0.8;
+    /* background-color: #3b31b9; */
+    box-shadow: 90px 90px 90px 90px #3a31b950;
+}

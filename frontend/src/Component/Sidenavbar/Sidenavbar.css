@@ -1,0 +1,99 @@
+.Sidenavbar{
+    height : 92vh;
+    /* margin: 6px; */
+    /* border-radius: 10px; */
+    z-index: 111 ;
+    transition:  0.9s ease!important;
+    background-color: black!important;
+    position: relative;
+    top : -0.25px;
+    margin : 0;
+    /* border-right: 1px solid rgb(190, 190, 190); */
+    width : 600px!important;
+    
+}
+.SidenavbarMenu {
+    background-color: black!important;
+    border-radius: 10px;
+    padding : 4px;
+}
+
+.SidenavbarMenu .ant-menu-item-selected{
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)); */
+    /* border:1px solid rgba(255, 255, 255, 1); */
+     background-color: rgba(255, 255, 255, 0.3);
+   color : #ffffff;
+    font-weight: 600;
+    font-size : 18px;
+}
+.sideNavBarBottom{
+    position : fixed!important;
+    bottom : 0;
+    left : 0;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    
+   
+}
+.SidenavbarBottomMenu{
+
+    display : flex!important;
+    /* justify-content: space-between; */
+    position : relative;
+    background-color: black !important;
+        border-radius: 10px; 
+   
+        width: 100vw!important;
+        display: grid!important;
+        grid-template-columns:  1fr 1fr 1fr 1fr!important;
+        border-radius: 0 !important;
+        bottom : 0;
+        z-index: 1;
+        height: 60px;
+        place-content: center;
+
+}
+
+.SidenavbarBottomMenu>*:first-child {
+   /* position : absolute!important; */
+   /* left : 2px; */
+   /* padding :0  calc(100% - 1px)!important; */
+
+}
+
+.SidenavbarBottomMenu .ant-menu-item-selected {
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)); */
+    /* border:1px solid rgba(255, 255, 255, 1); */
+
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.SidenavbarBottomMenu .ant-menu-item{
+    display : flex!important;
+    justify-content: center;
+    align-items: center;
+
+}
+.ant-layout-sider-children{
+    /* width: 40px !important; */
+
+}
+.ant-menu::before{
+    display : none;
+}
+.menuIcon svg {
+    font-size: 22px!important;
+    /* Adjust size as needed */
+}
+.menuIcon{
+   
+       
+
+}

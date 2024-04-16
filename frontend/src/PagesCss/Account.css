@@ -1,0 +1,329 @@
+.UserPost {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px ,1fr));
+    
+     flex-wrap: wrap;
+    margin: auto;
+    overflow-y: scroll;
+    max-height: 78vh;
+    border: white!important;
+}
+
+
+.UserPost {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-flow: dense;
+}
+
+
+@media (max-width: 500px) {
+    .UserPost {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+.UserPost::-webkit-scrollbar {
+    display: none; 
+}
+
+
+.UserPost {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.UserPost:hover {
+    scrollbar-color: transparent transparent;
+}
+
+.mainPage {
+    width : 97%;
+    
+}
+.blockButton{
+    position : absolute;
+    right : 20px;
+    top : 10px;
+}
+.accountProfile{
+ 
+    /* flex-direction: column;
+    height : 100%; */
+    width :100%;
+
+}
+.userData {
+
+text-align: center;
+cursor: pointer;
+margin-left: 10px;
+flex-direction: column;
+
+
+}
+Divider {
+    border-color: white!important;
+}
+.accountRight {
+    height: 90vh;
+    border-left : 1px solid white;
+
+}
+
+
+.tablist{
+    height : 92vh;
+    /* border-left: 1px solid #3b31b9; */
+
+}
+.tabs {
+    
+
+}
+.ant-tabs-nav::before{
+    border : none!important;
+    all: unset!important;
+
+}
+.ant-tabs-nav-list {
+    /* border: 1px solid white; */
+    border: 1px solid #3b31b9!important;
+    margin: 20px auto ;
+    /* height: 19px; */
+    border-radius: 20px;
+ 
+    position: relative;
+    overflow: hidden;
+    display: flex !important;
+    justify-content:  space-evenly;
+    align-items: center;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    box-sizing: border-box!important;
+        background-color: white !important;
+        transition: 0.9s ease-in;
+}
+.ant-tabs-nav{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+
+}
+.ant-tabs-tab-btn{
+    all : unset!important;
+    color: black !important;
+    width: auto!important;
+    text-align: center!important;
+    
+    width : 100%;
+    margin : auto;
+    
+    
+}
+.ant-tabs-tab{
+    position : relative!important;
+    left : 0px!important;
+    display: grid;
+    justify-content: center;
+  
+
+    
+    text-align: center!important;
+}
+
+.ant-tabs-ink-bar-animated{
+    opacity: 00!important;
+    background: transparent!important;
+
+}
+.ant-tabs-tab-active{
+   
+background-color: #3b31b9!important;
+
+text-align: center;
+
+  
+    color : white!important;
+   
+
+}
+.ant-tabs-tab-active .ant-tabs-tab-btn{
+   
+background-color: #3b31b9!important;
+font-size: 20px;
+width: 130px !important;
+
+    color : white!important;
+    font-weight: bold!important;
+
+}
+.ant-tabs-nav-list>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ant-tabs-nav-list>*:nth-child(2) {
+    margin-left: -1px!important;
+    padding : 5px 12px ;
+  /* border-left: 1px solid #3b31b9; */
+border-radius: 20px;
+
+}
+.ant-tabs-nav-list>*:nth-child(1) {
+    margin-left: -1px!important;
+    padding : 5px 12px ;
+    border-radius: 20px;
+    /* border-right: 1px solid #3b31b9; */
+
+  
+}
+.ant-tabs-nav-list>*:nth-child(3) {
+    /* border-left: 1px solid #3b31b9; */
+    margin-left: -1px!important;
+    padding: 5px 12px;
+    border-radius: 20px;
+  
+}
+.accountLayout{
+    
+    border-radius: 20px;
+    margin: auto;
+    padding : 10px;
+    margin: 10px;
+    height: 89vh;
+    display : grid;
+    grid-template-rows: 2fr 0.09fr;
+    
+    background-color: rgba(130, 130, 130, 0.3) !important;
+
+}
+
+
+
+.nameUsername{
+    text-align: left;
+
+    /* border : 1px solid blue; */
+    width : 100%;
+    color : white;
+    /* padding-left : 30px; */
+}
+.nameUsernameBox{
+    width : 100%;
+    
+}
+.accountButton{
+    font-weight: bold;
+    font-size: 16px;
+}
+.followerSection{
+    background-color: black;
+    width : 100%;
+    border-radius: 20px;
+    padding : 10px;
+   justify-content: space-evenly;
+   height: 100px;
+position : relative;
+bottom :-10px;
+
+  
+}
+.followerText{
+    color : white;
+    font-size: 22px;
+    text-align: center;
+}
+.avatarUser{
+    border: 3px solid black;
+    margin-top: -60px!important;
+}
+
+.buttons{
+    float: left;
+    
+}
+.row {
+    max-height: 95vh;
+    overflow-y: auto;
+    
+}
+
+.accountLayout {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.accountProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width : 100%;
+    position : relative;
+    bottom : 0;
+}
+
+.buttons>* {
+    margin-bottom: 10px;
+}
+
+
+.userData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.followerText {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.avatarUser {
+    margin-top: 20px;
+}
+
+.nameUsernameBox {
+
+    width : 80%!important;
+    margin-right: 10%;
+}
+.mainButtons{
+    width : 100%;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.rowBottom{
+    
+}
+.ant-tabs-nav-operations{
+    display : none!important;
+}
+.username{
+    color : rgb(168, 168, 168);
+}
+.dropdownBlock{
+    position : absolute;
+    top : 30px;
+    right : 30px;
+}
+@media (max-width : 600px) {
+
+    .accountLayout {
+        height:auto;
+        padding-top : 110px;
+        /* border : 1px solid green; */
+    }
+
+}

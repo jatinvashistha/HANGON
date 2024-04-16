@@ -1,0 +1,5 @@
+.ant-modal-content{
+   backdrop-filter: blur(24px);
+   background-color: rgba(38, 38, 38, 0.594)!important;
+   border : 1px solid black!important;
+}

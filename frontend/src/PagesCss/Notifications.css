@@ -1,0 +1,92 @@
+.notRead {
+    background-color: rgba(0, 0, 0, 0.236);
+    border-radius : 2px;
+    margin : 2px 2px 0 0;
+
+}
+.a {
+    /* margin : 2px 2px 0 0; */
+}
+.notificationLayout{
+    width : 100%;
+    height : 100vh;
+    overflow : hidden;
+    margin :auto;
+    
+}
+.notification {
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+    padding : 20px 20px;
+    /* border-bottom: 2px solid #f5f5f5!important; */
+     /* border-bottom: 2px solid rgb(71, 71, 71) !important; */
+
+
+}
+.notificationSection{
+    display : flex;
+    flex-direction: column;
+   align-items: center;
+    width : 100%;
+    justify-content: center;
+
+
+}
+.notificationInside{
+    height : 95vh;
+    overflow-y: scroll;
+    border : none;
+    border-radius: 10px;
+scroll-behavior: smooth;
+background-color: black!important;
+}
+.notificationInsider {
+height : 94vh;
+margin : auto;
+
+}
+.notifiactionText{
+    color : white;
+     width : 100%; 
+    justify-content: space-between;
+    align-items: center;
+    display : flex;
+    /* border :1px solid green; */
+    padding-top : 12px;
+}
+
+.dividerNotification{
+    /* background-color: #f2f2f2; */
+    /* width : 13%!important; */
+    background-color: rgb(29, 29, 29);
+    height : 1px;
+    margin : 0 20px  ;
+}
+.notificationTime{
+    width : 100%;
+
+    text-align: left;
+    margin-top: -12px;
+}
+.notificationFollowButton{
+border: 1px solid rgb(67, 67, 67) !important;
+border-radius : 6px!important;
+
+}
+.notificationHeading{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding : 20px;
+}
+.dotNofication{
+    /* background-color: white;
+    width : 4px;
+    height : 4px; */
+border-radius: 50%;
+margin-left : 30px;
+font-size : 53px;
+color  : white;
+}

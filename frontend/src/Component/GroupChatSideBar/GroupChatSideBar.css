@@ -1,0 +1,25 @@
+.group-chat-sidebar {
+    padding: 16px;
+    background-color: #f6f6f6;
+    height: 100%;
+  }
+  
+  .group-chat-sidebar-header {
+    margin-bottom: 16px;
+  }
+  
+  .group-chat-user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #fff;
+    transition: background-color 0.3s ease; 
+  }
+  
+
+  .menuItemsSide{
+    border-radius : 12px;
+    background-color: white;
+  }

@@ -1,0 +1,91 @@
+
+.list::-webkit-scrollbar {
+display: none; 
+}
+.list{
+    overflow-y : scroll;
+    height : 69vh;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.chatUserLayout{
+    height: 100vh;
+    width : 100%;
+    align-items: flex-start;
+
+}
+.chatUserUpperSection {
+    
+    width : 100%!important;
+    padding : 20px!important ;
+   
+   
+   
+}
+.listItem{
+    height : 80px;
+    margin : 5px 15px;
+    padding : 12px!important;
+    border-bottom: 2px solid rgb(71, 71, 71)!important;
+}
+.createGroup{
+ margin-left : 20px;
+ width : 170px;
+ padding : 2px;
+    word-wrap: break-word;
+    
+    
+}
+.createGroup b{
+ height : 100%;
+whiteSpace: normal;
+    word-wrap: break-word;
+
+    
+}
+.messageDescription{
+    justify-content: space-between;
+}
+.userName {
+    color : white;
+    text-shadow: 1px 1px 20px black;
+    position : relative;
+    top : 9px;
+}
+.userLastMessage{
+    color : rgb(221, 215, 215);
+}
+.avatar {
+    margin-right: 20px;
+}
+.chatUsersCardMeta{
+    padding : 30px 20px;
+}
+.msgContentLatestMsg{
+    color : white;
+}
+
+@media (max-width: 1400px) {
+
+    .createGroup b {
+        font-size: 16px;
+    word-wrap: break-word;
+    }
+}
+@media (max-width: 1000px) {
+    .createGroup{
+        width : 180px;
+        margin-left : 5px;
+    }
+    .createGroup b {
+        font-size: 12px;
+     
+    word-wrap: break-word;
+    }
+}
+.placeHolderColor{
+    border : 1px solid black!important;
+
+}

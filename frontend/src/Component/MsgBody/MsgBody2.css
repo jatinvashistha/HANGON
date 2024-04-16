@@ -1,0 +1,118 @@
+.senderMsg{
+    display : flex;
+    justify-content: flex-start;
+
+   
+}
+.userMsg{
+    display : flex;
+    justify-content: flex-end;
+    position : relative;
+    padding : 0;
+    
+    right : 0;
+}
+.senderMessage {
+    background-color: #e8e8e8;
+  
+    padding : 13px 6px 1px 5px;
+    /* color : white; */
+    /* border : 1px solid black; */
+    color : black;    
+    border-radius: 12px;
+    min-width: auto !important;
+    max-width: 70% !important;
+}
+.userMessage {
+    /* background-color: blue; */
+    border-radius: 12px;
+
+        /* color : white; */
+        background-color: rgb(85, 83, 196);
+        /* border :1px solid rgb(0, 0, 0); */
+           padding :10px 12px;
+           display : flex;
+           /* min-width  : auto!important; */
+max-width: 70% !important;
+}
+.msgContent{
+    /* color : white!important; */
+    font-size: 18px;
+  text-align: right;
+  color : black;
+  
+}
+.msgContentUser{
+    /* color : white!important; */
+    font-size: 18px;
+  text-align: right;
+  color : white;
+  float: right;
+
+}
+.avatar {
+    margin : 0 3px;
+}
+.timestamp{
+    color : rgb(200, 200, 200);
+    /* color : rgb(180, 180, 180); */
+    font-size : 5px;
+    text-align: end;
+    /* position : relative; */
+    right  : 8px;
+    bottom: 3px;
+/* background-color: blue; */
+  
+
+} 
+.MsgLayout{
+    width : 100%;
+    margin : 2px 0;
+    /* border : 1px solid green; */
+    
+
+}
+.msgContainer{
+display: grid;
+    grid-template-columns: 1fr 23fr ;
+
+}
+.msgContainerUser{
+    /* float: right; */
+
+}
+.msgContainerInside{
+   /* display : flex;
+   align-items: flex-end; */
+
+}
+.msgCardPost {
+
+   width :250px;
+   padding : 0;
+   background-color: transparent;
+   border  : none;
+
+}
+.msgCardPostImage{
+
+    width : 100%!important;
+    border-radius: 0 0 8px  8px ;
+
+}
+.msgCardHeader{
+    background-color: white;
+    border-radius: 12px 12px 0px 0px ;
+    padding : 10px 10px;
+    margin-top: 10px;
+  
+}
+.reactVideoPlayer{
+    width : 150px!important;
+    height : 150px!important;
+
+}
+
+.msgCardPost{
+
+}

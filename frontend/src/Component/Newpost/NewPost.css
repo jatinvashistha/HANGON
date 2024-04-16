@@ -1,0 +1,14 @@
+/* NewPost.css */
+.new-post-container {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .new-post-input {
+    resize: none;
+  }
+  
+  .post-button {
+    width: 100%;
+  }
+  

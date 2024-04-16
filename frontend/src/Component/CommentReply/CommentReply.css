@@ -1,0 +1,11 @@
+.Paragraph b {
+    display: inline;
+    font-weight: bold;
+    margin-right: 5px;
+    background-color: blue!important;
+    text-align: left;
+
+}
+.Paragraph{
+    display :  block;
+}

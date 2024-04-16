@@ -1,0 +1,110 @@
+.sender {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.receiver {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+    position : relative;
+    right : 0;
+    
+
+}
+
+.msgContent {
+    background-color: #cecac7;
+    border : 0.2px solid #a9a8ab;
+    
+    padding:6px 11px 9px 11px;
+    color: black;
+    border-radius: 12px;
+    min-width: auto !important;
+    position :relative;
+    max-width: 70% !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.msgContentUser {
+    max-width: 70%;
+    background-color: rgb(85, 83, 196);
+    /* Different color for sender */
+    padding: 13px 12px 1px 5px;
+    color: white;
+    /* Adjust text color for better contrast */
+    border-radius: 12px;
+    min-width: auto !important;
+    max-width: 70% !important;
+    display: flex;
+    padding-left : 15px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.msgContentUser .timestamp{
+    color : #cecac7;
+}
+
+.timestamp {
+    color: rgb(80, 80, 80);
+    font-size: 8px;
+    /* Adjust font size */
+    text-align: end;
+    margin-top: 5px;
+    /* Add margin for better spacing */
+}
+
+
+.msgCardPost {
+
+    width: 250px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+
+}
+
+.msgCardPostImage {
+
+    width: 100% !important;
+    border-radius: 0 0 12px 12px;
+
+}
+.msgCardHeader{
+    background-color: white;
+        border-radius: 12px 12px 0px 0px;
+        padding: 10px 10px;
+        margin-top: 10px;
+}
+.timestampPost{
+    color: rgb(200, 200, 200);
+        font-size: 8px;
+        /* Adjust font size */
+        text-align: end;
+        margin-top: 5px;
+        position : absolute;
+        bottom :8px;
+        right  :10px;
+    
+}
+.timestampPostSender {
+
+    color: rgb(200, 200, 200);
+    /* color : rgb(180, 180, 180); */
+    font-size: 5px;
+    position: absolute;
+    right: 8px;
+    bottom : 2px;
+ 
+}
+.fileSending{
+    position : relative;
+    left : -10px;
+}
+.videoV{
+    background-color: white;
+}

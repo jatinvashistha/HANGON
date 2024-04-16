@@ -1,0 +1,234 @@
+.like-container {
+    cursor: pointer;
+    transition: transform 0.1s ease; 
+    animation-name: example;
+   
+  }
+  .like-container:hover {
+    background-color: inherit; 
+    border: inherit;
+
+  
+  }
+   .liked {
+    transform: scale(1.2); 
+    color : skyblue;
+  }
+ 
+  .wholeComment::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  .wholeComment  {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+
+  .custom {
+    :global(.ant-collapse-content-box) {
+      padding: 0 !important;
+  }
+  }
+  .post {
+    max-width: 600px;
+   
+
+  }
+  .postCard {
+    width : 80%;
+    margin : auto;
+    margin-top : 20px;
+    border-radius: 16px;
+    /* background-color: rgba(41, 41, 41, 0.982)!important; */
+  }
+  .postActions{
+    font-size: 20px;
+  }
+.postUsername {
+  font-size: 15px!important;
+  margin-right: 8px;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+  .followButton{
+    border-radius: 1px;
+    padding : 5px 10px;
+
+  }
+
+  
+.cardDescription {
+  margin-top: 10px;
+}
+.cardTextArea {
+  border : none;
+  outline : none;
+  resize : none;
+  width : 100%;
+  height : auto;
+
+}
+.commentPannel {
+  font-size: 15px;
+ height : 30px;
+}
+.commentList {
+  align-items: flex-start;
+  padding : 0;
+  margin : 5px;
+  flex-direction: column;
+  border : none;
+  border-top: 0.2px solid rgba(128, 128, 128, 0.164)!important;
+  padding-top: 10px;
+
+
+}
+.commentReply {
+  display: grid;
+  grid-template-columns: 10fr 1fr 1fr;
+  width: 99%;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  
+}
+.nameUsernameSection{
+  margin  : 10px!important;
+}
+.ant-card-cover{
+  /* border : 1px solid blue; */
+display : flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.ant-card .ant-card-cover img{
+  border-radius: 0px!important;
+  
+
+}
+
+
+.captionSection textarea{
+  width : 100%;
+  height  :90px;
+  resize: none;
+  margin-top : 10px;
+  border : none;
+  background-color: transparent;
+  outline : none;
+  padding : 2px;
+}
+.post .ant-card-body{
+  padding : 0!important;
+}
+.captionSection {
+  padding: 10px;
+  color : black;
+
+}
+.postTime{
+  text-align: right;
+  color : gray;
+  font-size: 12px;
+}
+.ant-card-bordered{
+  border  : none!important;
+}
+
+
+.ant-space-item{
+  color : black!important;
+  font-size: 20px!important;
+}
+.ant-card-actions li {
+display : flex;
+justify-content: center;
+align-items: center;
+}
+.ant-collapse-item .custom {
+  
+  border-radius: 16px!important;
+}
+.ant-collapse-item:last-child{
+  border-radius: 16px!important;
+  
+}
+.ant-collapse ,.ant-collapse-icon-position-start{
+  border-radius: 16px !important;
+  background-color: #f5f5f5;
+
+}
+.post .ant-collapse-content-box,.post .ant-card-body{
+  /* background-color: #d9d9d9; */
+  
+
+}
+.ant-list-item{
+  border : none!important;
+  
+}
+.sketch{
+  background-color: transparent!important;
+ 
+}
+.postImage{
+  height : 400px;
+  border-top : 0.2px solid rgba(128, 128, 128, 0.26);
+  border-bottom : 0.2px solid rgba(128, 128, 128, 0.26);
+
+  object-fit: cover;
+}
+.commentReplyPost{
+
+  display : flex;
+  width : 100%;
+  justify-content: flex-end;
+  
+
+}
+.commentReplyPost .commentReplyPosts{
+
+  width : 95%;
+  
+
+}
+.ant-collapse-header{
+  padding : 10px 15px!important;
+ 
+}
+
+.ant-collapse .ant-collapse-content{
+  background-color: #f5f5f5!important;
+  border : none!important;
+  
+   /* background-color: red!important; */
+}
+.inputReply{
+  background-color: transparent;
+  outline: none;
+  border : none;
+  border-bottom : 1px solid blue;
+  padding : 2px;
+
+}
+.ant-collapse-content-active .ant-collapse-content{
+  width : 100%;
+  border : 2px solid blue!important;
+}
+.ant-spin-container{
+/* border :1px solid gray; */
+width : 99%;
+
+
+
+}
+.ant-list-items{
+  padding : 12px;
+
+}

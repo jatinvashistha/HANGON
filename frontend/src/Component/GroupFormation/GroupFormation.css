@@ -1,0 +1,9 @@
+.Card {
+    padding : 5px!important;
+}
+.am{
+    border : 1px solid blue;
+}
+.ant-select-single .ant-select-selector{
+    border-radius: 2px;
+}

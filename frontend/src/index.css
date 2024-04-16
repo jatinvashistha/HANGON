@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Libre+Baskerville&family=Nanum+Gothic:wght@700&family=Orbitron:wght@400;900&family=Quicksand:wght@500&family=Roboto+Flex:opsz@8..144&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tulpen+One&display=swap')
+;
+*{
+  padding : 0;
+  margin : 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  /* font-style: italic; */
+overflow: smooth;
+  
+}
+.center {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  height : 100vh;
+  overflow: hidden;
+
+}
+body {
+  
+
+}
+.appLayout{
+  background-color: rgb(29, 29, 29);
+  height : 98vh;
+  
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.center {
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  height : 100%;
+}
+.scrollbar {
+  scroll-behavior: smooth;
+}
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar2 {
+  /* scroll-behavior: smooth; */
+}
+.scrollbar2::-webkit-scrollbar {
+  display: none;
+}
+.loginglass {
+
+  border-radius :10px;
+  backdrop-filter: blur(10px);
+ 
+}
+.glass {
+  /* background: linear-gradient(270deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)); */
+
+  /* background-color: rgba(255, 255, 255, 0.3)!important; */
+  background-color: rgba(130, 130, 130, 0.189) !important;
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-backdrop-filter: blur(10px); */
+  backdrop-filter: blur(3333px)!important;
+
+  border:1px solid rgba(166, 166, 166, 0.28)!important;
+  /* border: 1px solid rgba(202, 202, 202, 0.28) !important; */
+
+}
+.loginBox {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-backdrop-filter: blur(10px); */
+  border-radius: 20px;
+
+  border:1px solid rgba(255, 255, 255, 0.18);
+  /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+}
+
+.loginLayout {
+  color : loginLayout;
+  height:  100vh;
+  width: 100%;
+  display:  flex;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+
+
+}
+.loginBox {
+  height : 80%;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+ width: 80%;
+}
+.loginHeading {
+  color : white;
+  text-align: center;
+  font-size: 50px;
+
+}
+.loginCol2 {
+  width : 50%;
+  height : 100%;
+  flex-direction:  column;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginLogo{
+  width : 100%;
+  height : 30px;
+  position : absolute;
+  top  : 30px;
+  right : 30px;
+}
+.loginLogo {
+  width:130px;
+}
+.loginForm {
+flex-direction: column;
+}
+.loginInput {
+  width :223px;
+  height : 42px;
+  font-weight: 400;
+  font-size: 16.78px;
+border-radius: 1px;
+border : 2px solid black;
+
+}
+.loginInput::placeholder{
+  color : black;
+  font-weight: 100;
+}
+.loginButton{
+  background-color: #3b31b9;
+  color: black!important;
+  border : 2px solid black;
+  border-radius: 2px;
+  width: 223px;
+  height : 42px;
+
+}
+.loginForgot {
+text-align: right;
+position : relative;
+/* top : -0px; */
+width : 223px;
+font-weight:300;
+color : white;
+margin-bottom: 10px;
+font-size: 10px;
+}
+.loginButton b{
+  font-weight: 400;
+  font-size: 21.16px;
+}
+.loginInput .ant-input::placeholder {
+  color: black; /* Change placeholder color to gray */
+}
+.loginSignup {
+  color : gray;
+  margin-top: 10px;
+  
+  font-weight: 600;
+}
+.loginSignup Link{
+  font-weight: 600;
+  color : rgba(185, 185, 185, 0.451)!important;
+}
+.col1Box{
+width : 300px;
+height: 300px;
+border-radius: 30px;
+background-color: black;
+
+}
+.homeLayout {
+  
+  width : 100%;
+ 
+ 
+  
+  
+  
+}
+.homeRow {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.263);
+  border-radius : 10px;
+  overflow : hidden;
+}
+.cardGlassNetwork{
+  width : "100%";
+  padding : 0;
+
+}
+.primaryButton{
+  border-radius : 1px!important;
+  /* background-color: #3b31b9!important; */
+
+}
+.button{
+  border-radius: 1px!important;
+}
+
+.success {
+  color : green;
+}
+.failure {
+  color : red;
+}
+
+.disableButton{
+  background-color: gray!important;
+}
+.ant-modal-content{
+    background-color: rgba(130, 130, 130, 0.729) !important;
+      /* backdrop-filter: blur(10px); */
+      /* -webkit-backdrop-filter: blur(10px); */
+    
+      border: 1px solid rgba(166, 166, 166, 0.762) !important;
+
+}
+textarea{
+  background-color: transparent;
+}
+.ant-layout-content ,.ant-layout{
+  height : 103vh;
+}
+
+    Button {
+      display: inline-block;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: background-color 0.3s ease;
+    }
+  
+
+ Typography{
+  cursor : pointer;
+ }
